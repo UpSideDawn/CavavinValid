@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frup86202\\source\\repos\\Cavavin\\CavavinAPI\\CavavinAPI.csproj": {}
+    "C:\\Sources\\CavavinValid\\CavavinAPI\\CavavinAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Business\\Business.csproj": {
+    "C:\\Sources\\CavavinValid\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Sources\\CavavinValid\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\frup86202\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Business\\obj\\",
+        "projectPath": "C:\\Sources\\CavavinValid\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\frup77025\\.nuget\\packages\\",
+        "outputPath": "C:\\Sources\\CavavinValid\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\frup86202\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frup77025\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,18 +26,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj"
+              "C:\\Sources\\CavavinValid\\Common\\Common.csproj": {
+                "projectPath": "C:\\Sources\\CavavinValid\\Common\\Common.csproj"
               },
-              "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Data\\Data.csproj"
+              "C:\\Sources\\CavavinValid\\Data\\Data.csproj": {
+                "projectPath": "C:\\Sources\\CavavinValid\\Data\\Data.csproj"
               }
             }
           }
@@ -81,20 +80,20 @@
         }
       }
     },
-    "C:\\Users\\frup86202\\source\\repos\\Cavavin\\CavavinAPI\\CavavinAPI.csproj": {
+    "C:\\Sources\\CavavinValid\\CavavinAPI\\CavavinAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\CavavinAPI\\CavavinAPI.csproj",
+        "projectUniqueName": "C:\\Sources\\CavavinValid\\CavavinAPI\\CavavinAPI.csproj",
         "projectName": "CavavinAPI",
-        "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\CavavinAPI\\CavavinAPI.csproj",
-        "packagesPath": "C:\\Users\\frup86202\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\CavavinAPI\\obj\\",
+        "projectPath": "C:\\Sources\\CavavinValid\\CavavinAPI\\CavavinAPI.csproj",
+        "packagesPath": "C:\\Users\\frup77025\\.nuget\\packages\\",
+        "outputPath": "C:\\Sources\\CavavinValid\\CavavinAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\frup86202\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frup77025\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,18 +102,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Business\\Business.csproj"
+              "C:\\Sources\\CavavinValid\\Business\\Business.csproj": {
+                "projectPath": "C:\\Sources\\CavavinValid\\Business\\Business.csproj"
               },
-              "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj"
+              "C:\\Sources\\CavavinValid\\Common\\Common.csproj": {
+                "projectPath": "C:\\Sources\\CavavinValid\\Common\\Common.csproj"
               }
             }
           }
@@ -157,20 +155,20 @@
         }
       }
     },
-    "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj": {
+    "C:\\Sources\\CavavinValid\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Sources\\CavavinValid\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\frup86202\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\obj\\",
+        "projectPath": "C:\\Sources\\CavavinValid\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\frup77025\\.nuget\\packages\\",
+        "outputPath": "C:\\Sources\\CavavinValid\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\frup86202\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frup77025\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -179,15 +177,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Persistence\\Persistence.csproj"
+              "C:\\Sources\\CavavinValid\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Sources\\CavavinValid\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -221,20 +218,20 @@
         }
       }
     },
-    "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Data\\Data.csproj": {
+    "C:\\Sources\\CavavinValid\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Sources\\CavavinValid\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\frup86202\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Data\\obj\\",
+        "projectPath": "C:\\Sources\\CavavinValid\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\frup77025\\.nuget\\packages\\",
+        "outputPath": "C:\\Sources\\CavavinValid\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\frup86202\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frup77025\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -243,15 +240,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Common\\Common.csproj"
+              "C:\\Sources\\CavavinValid\\Common\\Common.csproj": {
+                "projectPath": "C:\\Sources\\CavavinValid\\Common\\Common.csproj"
               }
             }
           }
@@ -299,20 +295,20 @@
         }
       }
     },
-    "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Persistence\\Persistence.csproj": {
+    "C:\\Sources\\CavavinValid\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Sources\\CavavinValid\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\frup86202\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frup86202\\source\\repos\\Cavavin\\Persistence\\obj\\",
+        "projectPath": "C:\\Sources\\CavavinValid\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\frup77025\\.nuget\\packages\\",
+        "outputPath": "C:\\Sources\\CavavinValid\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\frup86202\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frup77025\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -321,7 +317,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
