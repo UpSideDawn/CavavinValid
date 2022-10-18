@@ -17,7 +17,7 @@ namespace Data.DAL
         {
             _context = context;
         }*/
-        public async Task<ActionResult<IEnumerable<Etagere>>> GetAllEtagere(VinContext context)
+        public async Task<IEnumerable<Etagere>> GetAllEtagere(VinContext context)
         {
             return await context.Etageres.ToListAsync();
         }
