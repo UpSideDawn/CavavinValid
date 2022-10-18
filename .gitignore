@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Cavavin/v17/.suo
+/.vs/Cavavin/FileContentIndex/949fa83f-70b9-4e49-857e-d08cedc981c2.vsidx
+/.vs/Cavavin/DesignTimeBuild/.dtbcache.v2
+/.vs/Cavavin/config/applicationhost.config
