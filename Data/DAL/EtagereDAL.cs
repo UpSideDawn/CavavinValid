@@ -21,7 +21,7 @@ namespace Data.DAL
         {
             return await context.Etageres.ToListAsync();
         }
-        public async Task<ActionResult<Etagere>> GetEtagereById(VinContext context ,Guid id)
+        public async Task<Etagere> GetEtagereById(VinContext context ,Guid id)
         {
             var etagere = await context.Etageres.FindAsync(id);
 

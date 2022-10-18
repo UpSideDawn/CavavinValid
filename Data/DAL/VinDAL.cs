@@ -8,11 +8,11 @@ namespace Data.DAL
 {
     public class VinDAL
     {
-        public async Task<ActionResult<IEnumerable<Vin>>> GetAllVin(VinContext context)
+        public async Task<IEnumerable<Vin>> GetAllVin(VinContext context)
         {
             return await context.Vins.ToListAsync();
         }
-        public async Task<ActionResult<Vin>> GetVinById(VinContext context, Guid id)
+        public async Task<Vin> GetVinById(VinContext context, Guid id)
         {
             var vin = await context.Vins.FindAsync(id);
 

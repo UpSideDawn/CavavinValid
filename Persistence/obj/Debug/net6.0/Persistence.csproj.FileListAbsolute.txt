@@ -10,3 +10,15 @@ C:\Users\frup86202\source\repos\Cavavin\Persistence\obj\Debug\net6.0\Persistence
 C:\Users\frup86202\source\repos\Cavavin\Persistence\obj\Debug\net6.0\refint\Persistence.dll
 C:\Users\frup86202\source\repos\Cavavin\Persistence\obj\Debug\net6.0\Persistence.pdb
 C:\Users\frup86202\source\repos\Cavavin\Persistence\obj\Debug\net6.0\ref\Persistence.dll
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\Users\frup86202\source\repos\CavavinGit\Persistence\obj\Debug\net6.0\ref\Persistence.dll

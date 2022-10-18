@@ -23,25 +23,25 @@ namespace Business.Services
             _optionsBuilder.UseInMemoryDatabase("BaseCave");    // Pour vraie base, passer _connexionString en parametres
         }
 
-        public VinDTO RecupererListeVin()
+        public async Task<IEnumerable<VinDTO>> RecupererListeVin()
         {
-            Task<ActionResult<IEnumerable<Vin>>> vinModelResultat = null;           // Le type IEnumerable retourne une liste d'objets Vin
+            IEnumerable<Vin> vinModelResultat = null;           // Le type IEnumerable retourne une liste d'objets Vin
 
             using (VinContext _context = new VinContext(_optionsBuilder.Options))       //Initialise la connexion a la BDD avec paramètres définis uniquement dans les cotes
             {
-                vinModelResultat = _dal.GetAllVin(_context);
+                vinModelResultat = await _dal.GetAllVin(_context);
             }
-            return vinModelResultat.Adapt<VinDTO>();
+            return vinModelResultat.Adapt<IEnumerable<VinDTO>>();
             
         }
 
-        public VinDTO SelectVinByID(Guid id)
+        public async Task<VinDTO> SelectVinByID(Guid id)
         {
-            Task<ActionResult<Vin>> vinModelResultat = null;
+            Vin vinModelResultat = null;
 
             using (VinContext _context = new VinContext(_optionsBuilder.Options))       //Initialise la connexion a la BDD avec paramètres définis uniquement dans les cotes
             {
-                vinModelResultat = _dal.GetVinById(_context, id);
+                vinModelResultat = await _dal.GetVinById(_context, id);
             }
 
             return vinModelResultat.Adapt<VinDTO>();
@@ -69,7 +69,7 @@ namespace Business.Services
 
             return codeVinModification;
         }
-        public Task<int> CreerVin(Guid id, VinDTO vinDTO)
+        public Task<int> CreerVin(VinDTO vinDTO)
         {
             Task<int> vinCodeRetour = null;
 

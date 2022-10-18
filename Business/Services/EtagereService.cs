@@ -15,7 +15,7 @@ namespace Business.Services
     {
         // private readonly IConfiguration _configuration;
         private EtagereDAL _dal;
-
+        
         //private string _connectionString;
         DbContextOptionsBuilder<VinContext> _optionsBuilder;
         public EtagereService(/*IConfiguration configuration*/)
@@ -74,7 +74,7 @@ namespace Business.Services
         }
         public async Task<EtagereDTO> SelectEtagereById(Guid id)
         {
-            ActionResult<Etagere> etagereModelResultat = null;
+            Etagere etagereModelResultat = null;
 
             using (VinContext _context = new VinContext(_optionsBuilder.Options))               //Initialise une variable valable uniquement entre les cotes
             {

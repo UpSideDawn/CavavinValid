@@ -66,5 +66,12 @@ namespace CavavinAPI.Controllers
 
             return CreatedAtAction("Get", new { id = etagereDTO.Id }, etagereDTO);
         }
+        [HttpDelete]
+        public async Task<IActionResult> DeleteEtagere(Guid id)
+        {
+            var retour = await _etagereService.SupprimerEtagere(id);
+
+            return Ok(retour);
+        }
     }
 }
