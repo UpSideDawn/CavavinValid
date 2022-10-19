@@ -16,6 +16,8 @@ namespace Persistence.Models
 
         public int Type { get; set; }
 
+        public Etagere? Etagere { get; set; }
+
         public DateTime DateCreation { get; set; }
     }
 }

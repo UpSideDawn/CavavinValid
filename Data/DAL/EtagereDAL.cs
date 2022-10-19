@@ -19,17 +19,17 @@ namespace Data.DAL
         }*/
         public async Task<IEnumerable<Etagere>> GetAllEtagere(VinContext context)
         {
-            return await context.Etageres.ToListAsync();
+            return await context.Etageres.Include(etagere => etagere.Vins).ToListAsync();
         }
         public async Task<Etagere> GetEtagereById(VinContext context ,Guid id)
         {
-            var etagere = await context.Etageres.FindAsync(id);
+            var etagere = await context.Etageres.Include(etagere => etagere.Vins).FirstOrDefaultAsync(etagere => etagere.Id == id);
 
-            if (etagere == null)
+           /* if (etagere == null)
             {
                 return new Etagere();                 //Plusieurs return = bonne pratique. Ici renvoie un objet vide en cas d'etagere null
             }
-
+           */
             return etagere;
         }
         public async Task<int> ModifyEtagere(VinContext context, Guid id, Etagere etagere)
